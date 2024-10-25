@@ -1,0 +1,170 @@
+ body {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-image:url(../img/imagenfondo.jpg);
+     
+
+
+ }
+
+ #imagenfondo {
+     z-index: -1;
+     opacity: 90%;
+     width: 100%;
+     height: auto;
+     position: absolute;
+
+ }
+
+ #logo {
+     width: 20vw;
+     padding: 20px 68px 20px;
+
+ }
+
+ #barradenavegacion {
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+
+
+
+ }
+
+ ul {
+     display: flex;
+     flex-direction: row;
+     color: white;
+     background-color: rgba(255, 3, 3, 0.63);
+     height: 8vh;
+     width: 90vw;
+     justify-content: space-around;
+     align-items: center;
+     border-radius: 5px;
+
+
+ }
+
+ #principal {
+
+     display: flex;
+
+ }
+
+ video {
+
+     width: 50vw;
+     height: 50vh;
+     margin-left: 10%;
+     margin-top: 5%;
+
+ }
+
+ #informacion {
+     display: flex;
+     flex-direction: column;
+     color: white;
+     margin-top: 5%;
+
+     width: 30vw;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ h2 {
+     font-size: 50px;
+     margin-bottom: 3vh;
+ }
+
+ p {
+     font-size: 20px;
+     margin-bottom: 3vh;
+
+ }
+
+ #botonintro {
+
+     color: white;
+     background-color: red;
+     border: none;
+     border-radius: 5px;
+     width: 10vw;
+     height: 5vh;
+ }
+
+ .participantes {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .gallery-item {
+     position: relative;
+     width: calc(100%/3);
+ }
+
+ .gallery-item img {
+     width: 100%;
+     height: auto;
+     transition: 250ms;
+ }
+
+
+ .gallery-item .caption {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
+     text-align: center;
+     padding: 5px 0;
+ }
+
+ .gallery-item:hover {
+
+     transform: scale(1.02);
+     transition: 250ms;
+ }
+
+ #contenido {
+     padding-top: 5vh;
+     text-align: center;
+     color: white;
+ }
+
+ .footer-container {
+     box-sizing: border-box;
+     width: 100%;
+     text-align: center;
+     padding-top: 1rem 1rem 1rem 1rem;
+ }
+
+ #ul-footer {
+
+    display: flex;
+     flex-direction: row;
+     color: white;
+     background-color: rgba(255, 3, 3, 0.63);
+     height: 8vh;
+     width: 90vw;
+     justify-content: space-around;
+     align-items: center;
+     border-radius: 5px;
+ }
+
+ footer {
+     padding-top: 5vh;
+     max-width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #footer-izquierda {
+    display: inline-block;
+    vertical-align: top;
+ }
+ .img-footer{
+    border-radius: 10%;
+ }
