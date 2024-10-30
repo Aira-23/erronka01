@@ -7,17 +7,14 @@
     <title>GameStop</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/pagina.css">
-
 </head>
 
 <body>
-
-    <img id="imagenfondo" src="../img/imagenfondo.jpg" alt="No se ha podido cargar la imagen">
-    <img id="logo" src="../img/gamestop.png" alt="">
-
+    <!--BARRA NAVEGACIÓN-->
     <div id="barradenavegacion">
-        <nav>
-            <ul>
+        <img id="logo" src="../img/gamestop.png" alt="">
+        <nav id="navPrincipal">
+            <ul id="ulNav">
                 <li>Inicio</li>
                 <li>Campeonato</li>
                 <li>Participantes</li>
@@ -25,71 +22,118 @@
                 <li>Clasificación</li>
                 <li>Gaming</li>
             </ul>
-
         </nav>
     </div>
+    <!--FIN BARRA NAVEGACIÓN-->
+
+    <!--BARRA LATERAL-->
+    <div class="sidebar">
+        <nav>
+            <input type="checkbox" name="abrir" id="abrir">
+            <label for="abrir" class="abrir">
+                <i class="fas fa-bars"><img src="../img/menu-principal.png" alt="imagen menú"></i>
+            </label>
+            <div class="menu">
+                <div class="logo">
+                    <a href="../pages/index.html" class="aSide">
+                        <img src="../img/logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="sidebar">
+                    <li class="liSide"><a href="" class="aSide">Inicio</a></li>
+                    <li class="liSide"><a href="" class="aSide">Campeonato</a></li>
+                    <li class="liSide"><a href="" class="aSide">Participantes</a></li>
+                    <li class="liSide"><a href="" class="aSide">Noticias</a></li>
+                    <li class="liSide"><a href="" class="aSide">Clasificación</a></li>
+                    <li class="liSide"><a href="" class="aSide">Gaming</a></li>
+                    <li class="liSide"><a href="" class="aSide">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--FIN BARRA LATERAL-->
+
+    <!--VÍDEO Y TEXTO LATERAL-->
     <div id="principal">
         <video muted autoplay>
             <source src="../video/random.mp4" type="video/mp4">
             Tu buscador no soporta videos
         </video>
         <div id="informacion">
-        <h2>Introducción</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <button id="botonintro">Leer mas</button>
+            <p id="titulo-introduccion">Introducción</p>
+            <p id="texto-introduccion">Lorem ipsum dolor sit amet.</p>
+            <a id="btn" href="/html/Txapelketa.html" target="_blank">Leer más</a>
         </div>
     </div>
+    <!--FIN VÍDEO Y TEXTO LATERAL-->
 
+    <!--CONTENIDO-->
     <h2 id="contenido">Contenido</h2>
-
     <div class="participantes">
-        
         <div class="gallery-item">
-            <img src="../img/Faker.jpg" alt="Descripción de la imagen 1">
-            <div class="caption">Texto de la imagen 1</div>
+            <img src="../img/participantes.png" alt="Descripción de la imagen 1">
+            <div class="caption">Participantes</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="../img/noticias.png" alt="Descripción de la imagen 2">
+            <div class="caption">Ultimas noticias</div>
         </div>
         <div class="gallery-item">
-            <img src="../img/Faker.jpg" alt="Descripción de la imagen 2">
-            <div class="caption">Texto de la imagen 2</div>
+            <img src="../img/Torneo.jpg" alt="Descripción de la imagen 3">
+            <div class="caption">Clasificatoria</div>
         </div>
         <div class="gallery-item">
-            <img src="../img/Faker.jpg" alt="Descripción de la imagen 3">
-            <div class="caption">Texto de la imagen 3</div>
+            <img src="../img/Gaming.jpeg" alt="Descripción de la imagen 4">
+            <div class="caption">Espacio Gaming</div>
         </div>
-        <div class="gallery-item">
-            <img src="../img/Faker.jpg" alt="Descripción de la imagen 4">
-            <div class="caption">Texto de la imagen 4</div>
-        </div>
-        
     </div>
-<footer id="footer footer-container">
-    <div id="footer-izquierda">
-        <ul id="ul-footer">
-            <li class="li-footer">
-                <img class="img-footer" src="../img/instagram.webp" alt="instagram">
-                <a class="a-footer" href="#">instagram</a>
+    <!--FIN CONTENIDO-->
 
-            </li>
-            <li class="li-footer">
-                <img class="img-footer" src="../img/gmail.webp" alt="gmail">
-                <a class="a-footer" href="#">gmail</a>
+    <!--FOOTER-->
+    <footer id="footer footer-container">
+        <div id="footer-izquierda">
+            <ul id="ul-footer">
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/instagram.png" alt="instagram">
+                    <a class="a-footer" href="#">instagram</a>
 
-            </li>
-            <li class="li-footer">
-                <img class="img-footer" src="../img/twitter.webp" alt="twitter">
-                <a class="a-footer" href="#">twitter</a>
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/gmail.png" alt="gmail">
+                    <a class="a-footer" href="#">gmail</a>
 
-            </li>
-            <li class="li-footer">
-                <img class="img-footer" src="../img/facebook.webp" alt="facebook">
-                <a class="a-footer" href="#">facebook</a>
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/twitter.png" alt="twitter">
+                    <a class="a-footer" href="#">twitter</a>
 
-            </li>
-        </ul>
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/facebook.png" alt="facebook">
+                    <a class="a-footer" href="#">facebook</a>
 
-    </div>
-    
-</footer>
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/twitch.png" alt="facebook">
+                    <a class="a-footer" href="#">twitch</a>
+
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/youtube.png" alt="facebook">
+                    <a class="a-footer" href="#">youtube</a>
+
+                </li>
+                <li class="li-footer">
+                    <img class="img-footer" src="../img/discord.png" alt="facebook">
+                    <a class="a-footer" href="#">discord</a>
+
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--FIN FOOTER-->
+
 </body>
 
 </html>

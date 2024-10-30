@@ -1,0 +1,37 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image:url(../img/imagenfondo.jpg);
+    color: white;
+
+
+}
+
+#imagenfondo {
+    z-index: -1;
+    opacity: 90%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+#logo {
+    width: 20vw;
+    padding: 20px 68px 20px;
+
+}
+
+#barradenavegacion {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+
+    width: 50vw;
+    height: 50vh;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
